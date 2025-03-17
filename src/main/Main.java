@@ -5,7 +5,6 @@
 package main;
 
 import core.Cat;
-import core.Dog;
 import core.Person;
 
 /**
