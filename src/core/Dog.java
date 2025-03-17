@@ -9,5 +9,18 @@ package core;
  * @author orested
  */
 public class Dog {
+    private String nombre;
+    private double edad;
+
+    public Dog(String nombre, double edad) {
+        this.nombre = nombre;
+        this.edad = edad;
+    }
+
+    @Override
+    public String toString() {
+        return "Dog{" + "nombre=" + nombre + ", edad=" + edad + '}';
+    }
+    
     
 }
